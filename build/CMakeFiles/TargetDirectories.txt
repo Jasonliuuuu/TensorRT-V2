@@ -1,0 +1,3 @@
+C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/efficientnet.dir
+C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/ALL_BUILD.dir
+C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/ZERO_CHECK.dir

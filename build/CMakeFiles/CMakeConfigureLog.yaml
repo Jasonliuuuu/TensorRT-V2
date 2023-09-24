@@ -1,0 +1,223 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework 的 MSBuild 版本 17.7.2+d6990bcfa
+      已經開始建置於 2023/9/23 下午 05:08:01。
+      
+      節點 1 (預設目標) 上的專案 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\3.27.5\\CompilerIdC\\CompilerIdC.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdC.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\3.27.5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"。
+      專案 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\3.27.5\\CompilerIdC\\CompilerIdC.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:03.41
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/3.27.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework 的 MSBuild 版本 17.7.2+d6990bcfa
+      已經開始建置於 2023/9/23 下午 05:08:05。
+      
+      節點 1 (預設目標) 上的專案 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\3.27.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdCXX.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\3.27.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"。
+      專案 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\3.27.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:01.08
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/3.27.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-7bty2o"
+      binary: "C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-7bty2o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-7bty2o'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_abe42.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework 的 MSBuild 版本 17.7.2+d6990bcfa
+        已經開始建置於 2023/9/23 下午 05:08:06。
+        
+        節點 1 (預設目標) 上的專案 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7bty2o\\cmTC_abe42.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_abe42.dir\\Debug\\"。
+          正在建立目錄 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7bty2o\\Debug\\"。
+          正在建立目錄 "cmTC_abe42.dir\\Debug\\cmTC_abe42.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_abe42.dir\\Debug\\cmTC_abe42.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_abe42.dir\\Debug\\cmTC_abe42.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_abe42.dir\\Debug\\\\" /Fd"cmTC_abe42.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\jason\\anaconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x86
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_abe42.dir\\Debug\\\\" /Fd"cmTC_abe42.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\jason\\anaconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7bty2o\\Debug\\cmTC_abe42.exe" /INCREMENTAL /ILK:"cmTC_abe42.dir\\Debug\\cmTC_abe42.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-7bty2o/Debug/cmTC_abe42.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-7bty2o/Debug/cmTC_abe42.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_abe42.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_abe42.vcxproj -> C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7bty2o\\Debug\\cmTC_abe42.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_abe42.dir\\Debug\\cmTC_abe42.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_abe42.dir\\Debug\\cmTC_abe42.tlog\\cmTC_abe42.lastbuildstate"。
+        專案 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7bty2o\\cmTC_abe42.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/jason/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-np10v2"
+      binary: "C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-np10v2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-np10v2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b00d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework 的 MSBuild 版本 17.7.2+d6990bcfa
+        已經開始建置於 2023/9/23 下午 05:08:08。
+        
+        節點 1 (預設目標) 上的專案 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-np10v2\\cmTC_9b00d.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_9b00d.dir\\Debug\\"。
+          正在建立目錄 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-np10v2\\Debug\\"。
+          正在建立目錄 "cmTC_9b00d.dir\\Debug\\cmTC_9b00d.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_9b00d.dir\\Debug\\cmTC_9b00d.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_9b00d.dir\\Debug\\cmTC_9b00d.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9b00d.dir\\Debug\\\\" /Fd"cmTC_9b00d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Users\\jason\\anaconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x86
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9b00d.dir\\Debug\\\\" /Fd"cmTC_9b00d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Users\\jason\\anaconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-np10v2\\Debug\\cmTC_9b00d.exe" /INCREMENTAL /ILK:"cmTC_9b00d.dir\\Debug\\cmTC_9b00d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-np10v2/Debug/cmTC_9b00d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/C_tensor_flow/tensorrtx/tensorrtx/build/CMakeFiles/CMakeScratch/TryCompile-np10v2/Debug/cmTC_9b00d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9b00d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_9b00d.vcxproj -> C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-np10v2\\Debug\\cmTC_9b00d.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_9b00d.dir\\Debug\\cmTC_9b00d.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_9b00d.dir\\Debug\\cmTC_9b00d.tlog\\cmTC_9b00d.lastbuildstate"。
+        專案 "C:\\C_tensor_flow\\tensorrtx\\tensorrtx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-np10v2\\cmTC_9b00d.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.86
+        
+      exitCode: 0
+...
