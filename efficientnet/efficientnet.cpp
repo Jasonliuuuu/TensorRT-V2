@@ -17,6 +17,7 @@
 using namespace nvinfer1;
 static Logger gLogger;
 
+
 static std::vector<BlockArgs>
 	block_args_list = {
 		BlockArgs{1, 3, 1, 1, 32, 16, 0.25, true},
